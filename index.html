@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estylles.css" />
+    <title>Texte Convertor de moedas</title>
+  </head>
+
+  <body>
+    <img class="LogoPrincipal" src="./assets/logo.gif" alt="LogoPrincipal" />
+    <main>
+      <label>
+        Covertor <b>de</b>
+        <select>
+          <option>R$ Real Brasileiro</option>
+        </select>
+      </label>
+
+      <label>
+        Covertor <b>para</b>
+        <select class="selecao-de-moeda">
+          <option value="dola">US$ Dólar Americano</option>
+          <option value="euro">€ Euro</option>
+        </select>
+      </label>
+
+      <label>
+        Valor:
+        <input class="input-moeda-convertida" type="number" placeholder="10.000,00" />
+      </label>
+
+      <button class="botao-de-conversao-principal">Converter</button>
+
+      <section>
+        <div class="currency-box">
+          <img src="./assets/real.png" alt="Real Brasileiro" />
+          <p class="moeda-em-real">Real Brasileiro</p>
+          <p class="valor-da-moeda-para-convercao">R$ 0.000,00</p>
+        </div>
+
+        <img class="arrow-img" src="./assets/arrow.png" alt="seta" />
+
+        <div class="currency-box">
+          <img class="moeda-img" src="./assets/dolar.png" alt="Dólar Americano" />
+          <p class="moeda-em-dola">Dólar Americano</p>
+          <p class="valor-da-moeda-ja-convertida">US$ 0.000,00</p>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
