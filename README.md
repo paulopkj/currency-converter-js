@@ -47,4 +47,4 @@ https://github.com/user-attachments/assets/959cd2b0-4286-4d6b-abfe-f73a08345fc3
 Desenvolvedor Full Stack 🚀  
 
 📌 GitHub: https://github.com/seu-usuario  
-📌 LinkedIn: https://www.linkedin.com/feed/
+📌 LinkedIn: https://www.linkedin.com/in/fullstack-paulo-ricardo
