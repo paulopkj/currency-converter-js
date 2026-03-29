@@ -54,7 +54,7 @@ function trocarImagemEMoeda() {
 
         if (selectDeMoedas.value == "dola") {
             moedaEmDola.innerHTML = "Dólar Americano"
-            moedaimagem.src = "./dolar.png"
+            moedaimagem.src = "./assets/dolar.png"
         }
 
         if (selectDeMoedas.value == "euro") {
